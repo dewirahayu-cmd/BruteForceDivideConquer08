@@ -9,7 +9,7 @@ public class mainFaktorial08 {
         int nilai = sc.nextInt();
 
         faktorial08 fk = new faktorial08();
-        System.out.println("Nilai Faktorial " +nilai+ " Menggunakan BF: " +fk.faktorialBF(nilai));
+        System.out.println("Nilai Faktorial " +nilai+ " Menggunakan BF: " +fk.faktorialBF_DoWhile(nilai));
         System.out.println("Nilai Faktorial " +nilai+ " Menggunakan DC: " +fk.faktorialDC(nilai));
 
         sc.close();
