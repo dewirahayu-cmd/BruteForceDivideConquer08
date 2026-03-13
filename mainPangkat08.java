@@ -21,7 +21,7 @@ public class mainPangkat08 {
 
         }
 
-        System.out.println("HASIL DEVIDE CONQUER:");
+        System.out.println("HASIL PANGKAT DEVIDE DAN CONQUER:");
         for (pangkat08 p : png) {
             System.out.println(p.nilai + "^" + p.pangkat + ": " + p.pangkatDC(p.nilai, p.pangkat));
         
